@@ -44,6 +44,7 @@ print(hola + str(14))
 # para que podamos remover espacios se ve asi
 palabra= ' hola'
 #en 'hola'
+### pendiente
 
 #C) "hOLA"- "HoLA"
 #para modificar algunas letras a mayusculas es necesario .upper para convertirlas en mayusculas
@@ -100,6 +101,7 @@ palabra = 'hola' '  mundo'
 nombre = "karen"
 edad = 18
 print(f"hola,mi nombre es {nombre} y tengo {edad} años.")
+
 
 
 
