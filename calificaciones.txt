@@ -1,0 +1,3 @@
+Entregadas: 2, 3, 4
+Correción: 1.3 b
+Faltantes: 5, 6
