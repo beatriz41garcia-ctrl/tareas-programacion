@@ -1,7 +1,9 @@
 #1como podemos concatenar un número a un string? 
 #tenemos que convertirlo a string usando la función str
-saludo = 'hola'
-print(saludo + str(9))
+nombre = "Edad: "
+edad = 20
+resultado = nombre + str(edad) 
+print(resultado)
 
 #2 De que tipo son las variables justifica la respuesta
 
@@ -42,9 +44,9 @@ print(hola + str(14))
 
 #B)  " hola"- "hola"
 # para que podamos remover espacios se ve asi
-palabra= ' hola'
-#en 'hola'
-### pendiente
+palabra = "  hola  "
+palabra_sin_espacios = palabra.strip()
+print(palabra_sin_espacios)  
 
 #C) "hOLA"- "HoLA"
 #para modificar algunas letras a mayusculas es necesario .upper para convertirlas en mayusculas
@@ -101,7 +103,6 @@ palabra = 'hola' '  mundo'
 nombre = "karen"
 edad = 18
 print(f"hola,mi nombre es {nombre} y tengo {edad} años.")
-
 
 
 
